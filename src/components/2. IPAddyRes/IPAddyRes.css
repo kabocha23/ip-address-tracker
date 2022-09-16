@@ -1,0 +1,11 @@
+.ipAddyRes-container {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+    width: 90%;
+    max-width: 1281px;
+    background-color: white;
+    border-radius: 20px;
+    top: 30%;
+}
