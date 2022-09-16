@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import IPAddyInput from './components/1. IPAddyInput/IPAddyInput';
+import IPAddyRes from './components/2. IPAddyRes/IPAddyRes';
+import IPAddyMap from './components/3. IPAddyMap/IPAddyMap';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <IPAddyInput />
+        <IPAddyRes />
+        <IPAddyMap />
     </div>
   );
 }

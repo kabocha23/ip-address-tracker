@@ -1,0 +1,27 @@
+.ipAddyInput-container {
+    background-image: url('../../images/pattern-bg.png');
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ipAddyInput-search {
+    display: flex;
+    width: 100%;
+}
+.ipAddyInput-search form {
+    width: 100%;
+    max-width: 1281px;    
+}
+
+.ipAddyInput-search form input {
+    width: 25%;
+    height: 50px;
+    border-radius: 15px;
+}
+.ipAddyInput-search form button {
+    width: 5%;
+    height: 50px;
+    border-radius: 15px;
+}
