@@ -14,7 +14,7 @@ const IPAddyInput = () => {
             <div className='ipAddyInput-search'>
                 <form>                
                     <input placeholder='Search for an IP Address Here...'></input>
-                    <button></button>
+                    <button>&gt;</button>
                 </form>
             </div>
         </div>
