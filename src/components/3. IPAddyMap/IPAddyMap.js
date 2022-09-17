@@ -7,6 +7,7 @@ const IPAddyMap = () => {
 
     return(
         <div className='ipAddyMap-container'>
+            
         </div>
     )
 
