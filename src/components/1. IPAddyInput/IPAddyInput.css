@@ -37,7 +37,7 @@
 }
 
 .ipAddyInput-search form input {
-    width: 50%;
+    width: 40%;
     height: 55px;
     border-radius: 15px;
     border: none;
@@ -48,7 +48,7 @@
     height: 57px;
     border-radius: 0px 15px 15px 0px;
     border: none;
-    right: 23%;
+    right: 28%;
     font-size: 25px;
     font-weight: bolder;
     background-color: black;
