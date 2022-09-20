@@ -8,12 +8,12 @@ const IPAddyInput = () => {
     return(
         <div className='ipAddyInput-container'>
             <div className='ipAddyInput-title'>
-                <h1>IP You</h1>
+                <h1>IP Finder</h1>
                 <h2>An IP Address Tracker</h2>
             </div>
             <div className='ipAddyInput-search'>
                 <form>                
-                    <input placeholder='Search for an IP Address Here...'></input>
+                    <input placeholder='Search for any IP address or domain...'></input>
                     <button>&gt;</button>
                 </form>
             </div>

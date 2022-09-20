@@ -3,12 +3,32 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    height: 200px;
+    height: 175px;
     width: 85%;
     max-width: 1281px;
     background-color: white;
     border-radius: 20px;
-    top: 35vh;
+    top: 30vh;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.ipAddyRes-sub {
+    width: 20%;
+}
+.ipAddyRes-title {
+    font-size: 0.90em;
+    font-weight: 500;
+    margin-top: 35px;
+    color: hsl(0, 0%, 59%);
+    text-align: flex-start;
+    letter-spacing: 0.25em;
+}
+
+.ipAddyRes-divider {
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid hsl(0, 0%, 59%);
+    height: 50%;
+    margin: auto 0;
 }

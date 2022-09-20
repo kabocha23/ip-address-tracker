@@ -7,17 +7,20 @@ const IPAddyRes = () => {
 
     return(
         <div className='ipAddyRes-container'>
-            <div className='ipAddyRes-ip-addy'>
-                <p>IP ADDRESS</p>
+            <div className='ipAddyRes-sub ipAddyRes-ip-addy'>
+                <p className='ipAddyRes-title'>IP ADDRESS</p>
             </div>
-            <div className='ipAddyRes-location'>
-                <p>LOCATION</p>
+            <div className='ipAddyRes-divider'></div>
+            <div className='ipAddyRes-sub ipAddyRes-location'>
+                <p className='ipAddyRes-title'>LOCATION</p>
             </div>
-            <div className='ipAddyRes-timezone'>
-                <p>TIMEZONE</p>
+            <div className='ipAddyRes-divider'></div>
+            <div className='ipAddyRes-sub ipAddyRes-timezone'>
+                <p className='ipAddyRes-title'>TIMEZONE</p>
             </div>
-            <div className='ipAddyRes-isp'>
-                <p>ISP</p>
+            <div className='ipAddyRes-divider'></div>
+            <div className='ipAddyRes-sub ipAddyRes-isp'>
+                <p className='ipAddyRes-title'>ISP</p>
             </div>
         </div>
     )
