@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: column wrap;
     background-image: url('../../images/pattern-bg.png');
-    height: 30vh;
+    height: 35vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,8 +12,12 @@
     display: flex;
     flex-flow: column wrap;
     width: 100%;
+    margin-top: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: white;
 }
-.ipAddyInput-title h1, h2{
+.ipAddyInput-title h2, h3 {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -41,15 +45,19 @@
     height: 55px;
     border-radius: 15px;
     border: none;
-    padding-left: 10px;
+    right: 30%;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
     cursor: pointer;
+    position: absolute;
 }
 .ipAddyInput-search form button {
     width: 60px;
     height: 57px;
     border-radius: 0px 15px 15px 0px;
     border: none;
-    right: 28%;
+    right: 30%;
     font-size: 25px;
     font-weight: bolder;
     background-color: black;

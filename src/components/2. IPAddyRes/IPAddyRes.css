@@ -8,7 +8,7 @@
     max-width: 1281px;
     background-color: white;
     border-radius: 20px;
-    top: 30vh;
+    top: 35vh;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -17,12 +17,12 @@
     width: 20%;
 }
 .ipAddyRes-title {
-    font-size: 0.90em;
-    font-weight: 500;
+    font-size: 0.80em;
+    font-weight: 700;
     margin-top: 35px;
     color: hsl(0, 0%, 59%);
     text-align: flex-start;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.15em;
 }
 
 .ipAddyRes-divider {

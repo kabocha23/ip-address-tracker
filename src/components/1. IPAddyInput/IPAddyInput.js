@@ -8,8 +8,8 @@ const IPAddyInput = () => {
     return(
         <div className='ipAddyInput-container'>
             <div className='ipAddyInput-title'>
-                <h1>IP Finder</h1>
-                <h2>An IP Address Tracker</h2>
+                <h2>IP Finder</h2>
+                <h3>An IP Address Tracker</h3>
             </div>
             <div className='ipAddyInput-search'>
                 <form>                
