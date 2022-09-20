@@ -1,8 +1,12 @@
 .ipAddyMap-container {
     height: 65vh;
-    background-color: bisque;
 }
 
 #map {
     height: 100%;
+}
+
+.leaflet-container {
+    height: 100%;
+    z-index: 1;
 }
