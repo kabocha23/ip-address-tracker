@@ -1,9 +1,8 @@
 import React from 'react';
-import SetViewOnClick from '../SetViewOnClick/SetViewOnClick';
 import './IPAddyInput.css';
 
-const IPAddyInput = () => {
-
+const IPAddyInput = ({ ipAddySubmission, setIpAddySubmit, submitIpAddy, loading }) => {
+    console.log(submitIpAddy)
 
     return(
         <div className='ipAddyInput-container'>
@@ -12,9 +11,16 @@ const IPAddyInput = () => {
                 <h3>An IP Address Tracker</h3>
             </div>
             <div className='ipAddyInput-search'>
-                <form>                
-                    <input placeholder='Search for any IP address or domain...'></input>
-                    <button>&gt;</button>
+                {loading && <div className="loading-text"><p>Loading...</p></div>}
+                <form onSubmit={submitIpAddy}>                
+                    <input 
+                        type='text' 
+                        name='input-ip'
+                        placeholder='Search for any IP address or domain...'
+                        value={ipAddySubmission || ''}
+                        onChange={e => setIpAddySubmit(e.target.value)}
+                    ></input>
+                    <button type='submit'>&gt;</button>
                 </form>
             </div>
         </div>
