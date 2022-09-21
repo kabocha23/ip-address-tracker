@@ -1,5 +1,5 @@
 import React from 'react';
-
+import SetViewOnClick from '../SetViewOnClick/SetViewOnClick';
 import './IPAddyInput.css';
 
 const IPAddyInput = () => {

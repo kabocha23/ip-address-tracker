@@ -7,15 +7,17 @@ import './App.css';
 function App() {
 
   const [markerPosition, setMarkerPosition] = useState([51.505, -0.09])
-
+  const changeCenter = () => {
+    setMarkerPosition([37.7749, 122.4194])
+  }
 
   return (
     <div className="App">
+        <a onClick={changeCenter}>Click to change coords</a>
         <IPAddyInput />
         <IPAddyRes />
         <IPAddyMap 
           markerPosition={markerPosition} 
-          setMarkerPosition={setMarkerPosition}
         />
     </div>
   );
