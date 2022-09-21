@@ -27,6 +27,14 @@
     letter-spacing: 0.15em;
 }
 
+.ipAddyRes-content {
+    font-size: 1.75em;
+    font-weight: 700;
+    margin-top: 10px;
+    color: hsl(0, 0%, 17%);
+    text-align: flex-start;
+}
+
 .ipAddyRes-divider {
     justify-content: center;
     align-items: center;

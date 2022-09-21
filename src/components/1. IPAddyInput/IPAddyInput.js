@@ -2,7 +2,6 @@ import React from 'react';
 import './IPAddyInput.css';
 
 const IPAddyInput = ({ ipAddySubmission, setIpAddySubmit, submitIpAddy, loading }) => {
-    console.log(submitIpAddy)
 
     return(
         <div className='ipAddyInput-container'>

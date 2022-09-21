@@ -13,17 +13,15 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const changeCenter = () => {
-    setMarkerPosition([37.7749, 122.4194])
+  const changeMapView = () => {
+    setMarkerPosition([data[0].location.lat, data[0].location.lng]);
   }
 
   const submitIpAddy = e => {
 
     if(e) e.preventDefault();
     
-    let apiURL = 'https://geo.ipify.org/api/v2/country?apiKey='+process.env.REACT_APP_IPIFY+'&ipAddress='+ipAddySubmission;
-
-    console.log(apiURL)
+    let apiURL = 'https://geo.ipify.org/api/v2/country,city?apiKey='+process.env.REACT_APP_IPIFY+'&ipAddress='+ipAddySubmission;
 
     setLoading(true);
 
@@ -40,9 +38,11 @@ const App = () => {
     });
 
     setIpAddySubmit('');
-    
+    changeMapView();
     return { data, error, loading };
   }
+
+  
 
   return (
     <div className="App">
@@ -54,7 +54,7 @@ const App = () => {
           error={error}
           loading={loading}
         />
-        <IPAddyRes />
+        <IPAddyRes data={data} />
         <IPAddyMap 
           markerPosition={markerPosition} 
         />
