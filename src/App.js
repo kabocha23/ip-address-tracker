@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import IPAddyInput from './components/1. IPAddyInput/IPAddyInput';
 import IPAddyRes from './components/2. IPAddyRes/IPAddyRes';
 import IPAddyMap from './components/3. IPAddyMap/IPAddyMap';
@@ -13,10 +13,6 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const changeMapView = () => {
-    setMarkerPosition([data[0].location.lat, data[0].location.lng]);
-  }
-
   const submitIpAddy = e => {
 
     if(e) e.preventDefault();
@@ -26,7 +22,7 @@ const App = () => {
     setLoading(true);
 
     axios.get(apiURL).then((response) => {
-        setData([...data, response.data]);
+        setData([response.data]);
         console.log(response.data);
     }).catch((err) => {
         setError(err);
@@ -38,10 +34,14 @@ const App = () => {
     });
 
     setIpAddySubmit('');
-    changeMapView();
     return { data, error, loading };
   }
 
+  useEffect(() => {
+    if(data.length) {
+      setMarkerPosition([data[0].location.lat, data[0].location.lng]);
+    }
+  })
   
 
   return (

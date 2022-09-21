@@ -6,6 +6,7 @@
     height: 175px;
     width: 85%;
     max-width: 1281px;
+    padding: 10px;
     background-color: white;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -17,11 +18,13 @@
 
 .ipAddyRes-sub {
     width: 20%;
+    overflow: hidden;
 }
 .ipAddyRes-title {
     font-size: 0.80em;
     font-weight: 700;
     margin-top: 35px;
+    margin-bottom: 0px;
     color: hsl(0, 0%, 59%);
     text-align: flex-start;
     letter-spacing: 0.15em;
@@ -30,7 +33,7 @@
 .ipAddyRes-content {
     font-size: 1.75em;
     font-weight: 700;
-    margin-top: 10px;
+    margin: 0 auto;
     color: hsl(0, 0%, 17%);
     text-align: flex-start;
 }
