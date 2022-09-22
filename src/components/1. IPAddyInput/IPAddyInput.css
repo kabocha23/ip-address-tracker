@@ -44,8 +44,7 @@
 }
 
 .ipAddyInput-search form input {
-    width: 40%;
-    min-width: 400px;
+    width: 340px;
     height: 55px;
     border-radius: 15px 0px 0px 15px;
     border: none;
@@ -73,4 +72,14 @@
     background-color: black;
     color: white;
     cursor: pointer;
+}
+
+@media (max-width: 450px) {
+    .ipAddyInput-search form {
+        width: 95%;
+    }
+    .ipAddyInput-search form input {
+        width: 100%;
+        font-size: 14px;
+    }
 }
