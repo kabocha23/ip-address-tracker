@@ -41,7 +41,7 @@ const App = () => {
     if(data.length) {
       setMarkerPosition([data[0].location.lat, data[0].location.lng]);
     }
-  })
+  }, [data])
   
 
   return (

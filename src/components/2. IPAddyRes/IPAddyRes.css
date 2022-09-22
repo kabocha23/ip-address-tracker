@@ -18,7 +18,7 @@
 
 .ipAddyRes-sub {
     width: 20%;
-    overflow: hidden;
+    /* min-width: 218px; */
 }
 .ipAddyRes-title {
     font-size: 0.80em;
@@ -44,4 +44,46 @@
     border-left: 1px solid hsl(0, 0%, 59%);
     height: 50%;
     margin: auto 0;
+}
+
+
+@media (max-width: 1281px) {
+    .ipAddyRes-content {
+        font-size: 1.25em;
+    }
+}
+
+@media (max-width: 1025px) {
+    .ipAddyRes-sub {
+        min-width: 150px;
+    }
+
+    .ipAddyRes-content {
+        font-size: 1.25em;
+    }
+}
+
+@media (max-width: 1025px) {
+    .ipAddyRes-container {
+        flex-flow: column nowrap;
+        height: 250px;
+        width: 400px;
+    }
+    .ipAddyRes-sub {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .ipAddyRes-divider {
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid hsl(0, 0%, 59%);
+        border-left: none;
+        width: 90%;
+        height: 1px;
+        margin: 0 auto;
+    }
+    .ipAddyRes-title {
+        margin-top: 5px;
+    }
 }

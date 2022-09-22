@@ -35,33 +35,42 @@
 
 }
 .ipAddyInput-search form {
-    position: relative;
-    width: 100%;
+    display: flex;
+    flex-direction: row;
     max-width: 1281px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .ipAddyInput-search form input {
     width: 40%;
+    min-width: 400px;
     height: 55px;
-    border-radius: 15px;
+    border-radius: 15px 0px 0px 15px;
     border: none;
-    right: 30%;
+    left:0;
+    right:0;
+    margin-right: 0px;
     padding-left: 20px;
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
     cursor: pointer;
-    position: absolute;
+}
+.ipAddyInput-search form input:focus {
+    outline: none;
 }
 .ipAddyInput-search form button {
     width: 60px;
     height: 57px;
     border-radius: 0px 15px 15px 0px;
     border: none;
-    right: 30%;
+    left:0;
+    right:0;
+    margin-left: 0px;
     font-size: 25px;
     font-weight: bolder;
     background-color: black;
     color: white;
     cursor: pointer;
-    position: absolute;
 }
