@@ -9,4 +9,4 @@ Features include:
 
 Please view the hosted site here!~ https://kabocha23.github.io/ip-address-tracker/
 
-![Desktop preview](https://github.com/kabocha23/ip-address-tracker/blob/main/src/images/ip_finder_preview.png)
+![Desktop preview](https://github.com/kabocha23/ip-address-tracker/blob/main/src/images/ip_finder_preview.jfif)
