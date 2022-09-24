@@ -3,7 +3,8 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    height: 175px;
+    height: 20%;
+    max-height: 175px;
     width: 85%;
     max-width: 1281px;
     padding: 10px;
@@ -52,7 +53,7 @@
     }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1023px) {
     .ipAddyRes-sub {
         min-width: 150px;
     }
@@ -60,14 +61,11 @@
     .ipAddyRes-content {
         font-size: 1.25em;
     }
-}
-
-@media (max-width: 1025px) {
     .ipAddyRes-container {
         flex-flow: column nowrap;
         height: 250px;
         max-width: 400px;
-        width: 90%;
+        width: 75%;
     }
     .ipAddyRes-sub {
         width: 90%;
@@ -85,5 +83,19 @@
     }
     .ipAddyRes-title {
         margin-top: 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ipAddyRes-container {
+        height: 160px;
+    }
+    .ipAddyRes-title {
+        margin-top: 2.5px;
+        font-size: 0.7em;
+    }
+    .ipAddyRes-content {
+        font-size: 0.9em;
+        margin-bottom: 2.5px;
     }
 }

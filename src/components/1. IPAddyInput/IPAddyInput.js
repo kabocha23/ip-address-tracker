@@ -7,7 +7,6 @@ const IPAddyInput = ({ ipAddySubmission, setIpAddySubmit, submitIpAddy, loading 
         <div className='ipAddyInput-container'>
             <div className='ipAddyInput-title'>
                 <h2>IP Finder</h2>
-                <h3>An IP Address Tracker</h3>
             </div>
             <div className='ipAddyInput-search'>
                 {loading && <div className="loading-text"><p>Loading...</p></div>}

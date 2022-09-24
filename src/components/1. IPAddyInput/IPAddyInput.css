@@ -10,7 +10,7 @@
 }
 .ipAddyInput-title {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     width: 100%;
     margin-top: 25px;
     font-family: 'Rubik', sans-serif;
@@ -25,14 +25,11 @@
 
 .ipAddyInput-search {
     display: flex;
-    flex-flow: row ;
+    flex-flow: row nowrap;
     width: 100%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
-    align-items: center;
-
 }
 .ipAddyInput-search form {
     display: flex;
@@ -48,8 +45,8 @@
     height: 55px;
     border-radius: 15px 0px 0px 15px;
     border: none;
-    left:0;
-    right:0;
+    left: 0;
+    right: 0;
     margin-right: 0px;
     padding-left: 20px;
     font-size: 18px;
@@ -74,12 +71,19 @@
     cursor: pointer;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
+    .ipAddyInput-title h3 {
+        display: none;
+    }
     .ipAddyInput-search form {
-        width: 95%;
+        width: 75%;
     }
     .ipAddyInput-search form input {
         width: 100%;
-        font-size: 14px;
+        height: 45px;
+        font-size: 12px;
+    }
+    .ipAddyInput-search form button {
+        height: 47px;   
     }
 }
