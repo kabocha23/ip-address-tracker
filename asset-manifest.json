@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ip-finder/static/css/main.9fb6fb80.css",
-    "main.js": "/ip-finder/static/js/main.6cf7c19d.js",
-    "static/js/787.09999bb6.chunk.js": "/ip-finder/static/js/787.09999bb6.chunk.js",
+    "main.js": "/ip-finder/static/js/main.0cf5b0db.js",
+    "static/js/787.910afa04.chunk.js": "/ip-finder/static/js/787.910afa04.chunk.js",
     "static/media/pattern-bg.png": "/ip-finder/static/media/pattern-bg.a60a3c85aa8b88aac4b7.png",
     "index.html": "/ip-finder/index.html",
     "main.9fb6fb80.css.map": "/ip-finder/static/css/main.9fb6fb80.css.map",
-    "main.6cf7c19d.js.map": "/ip-finder/static/js/main.6cf7c19d.js.map",
-    "787.09999bb6.chunk.js.map": "/ip-finder/static/js/787.09999bb6.chunk.js.map"
+    "main.0cf5b0db.js.map": "/ip-finder/static/js/main.0cf5b0db.js.map",
+    "787.910afa04.chunk.js.map": "/ip-finder/static/js/787.910afa04.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9fb6fb80.css",
-    "static/js/main.6cf7c19d.js"
+    "static/js/main.0cf5b0db.js"
   ]
 }
